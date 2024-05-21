@@ -1,6 +1,6 @@
 #Demo jithin
 
-![Screenshot (63)](https://github.com/nidalsj/OneFitness/assets/92546712/f3c8a386-ffc7-47bf-9ae3-5690b950b526)
+![pexels-photo-218863](https://github.com/Jithin8223/demo/assets/141701548/a941a7b4-9e73-4fed-bdda-34380034f05e)
 
 ## Table of Contents
 1. [Introduction](#introduction)
