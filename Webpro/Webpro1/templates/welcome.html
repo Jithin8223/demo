@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: url();
+        background-attachment: fixed;
+        background-size: cover;
+        margin: 0;
+    }
+
+    .container {
+        width: 240px;
+        height: 390px;
+        margin-left: 75%;
+        margin-bottom: 50px;
+        padding: 20px;
+        border: 3px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .txt1 {
+        padding-left: 190px;
+        padding-top: 170px;
+        font-size: 60px;
+        font-weight: bold;
+        color: #ffffff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        margin-top: 50px;
+    }
+
+    .txt2 {
+        padding-left: 400px;
+        padding-bottom: 100px;
+        font-size: 80px;
+        font-weight: bold;
+        color: #ffffff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        margin-top: 50px;
+    }
+    .vc{
+        width: 145px;
+    }
+</style>
+
+<body>
+
+    <div>
+        <p class="txt1">Explore The Next Level</p>
+    </div>
+    <div>
+        <p class="txt2">Banking</p>
+    </div>
+    <div class="container">
+        <form action="add">
+            <p>Need an Account?<a href="#">Sign Up</a></p>
+            <input type="text" placeholder="User ID"><br><br>
+            <input type="password" placeholder="Password"><br><br>
+            <input type="text" placeholder="Mobile Number"><br><br>
+            <div class="vc">
+                <input type="text" placeholder="Verification Code"><br><br>
+            </div>
+            <input type="submit" value="Login "><br><br>
+            <a href="#">Forgot User Id?</a>&nbsp;&nbsp;&nbsp;
+            <a href="#">Forgot Password?</a>
+        </form>
+    </div>
+</body>
+
+</html>
